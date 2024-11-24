@@ -64,7 +64,7 @@ The **backend** is implemented using **Spring Boot**, a powerful framework for c
 ## Integration
 - The frontend communicates with the backend via RESTful APIs. Update the API base URL in the frontend code to point to the backend:
   ```js
-  const API_BASE_URL = "http://localhost:8080/api";
+  const api = "http://localhost:8080/api";
   ```
 
 ---
