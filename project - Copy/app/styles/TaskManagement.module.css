@@ -1,0 +1,16 @@
+.taskManagement {
+    padding: 20px;
+  }
+  
+  .kanbanBoard {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .kanbanColumn {
+    flex: 1;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  

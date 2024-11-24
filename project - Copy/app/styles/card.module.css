@@ -1,0 +1,25 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    color: black;
+    box-shadow: 0px 10px 10px  #333;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .cardtext {
+    margin: 0;
+  }
+  .cardcontainer {
+    display: flex;
+    gap:10px;
+    overflow-x: auto;
+    scrollbar-color: transparent transparent;
+  }
+
+ 
+  

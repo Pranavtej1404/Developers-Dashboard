@@ -1,0 +1,32 @@
+.projectDetails {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    color:black;
+  }
+  
+  .projectSections {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .projectSections div {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .taskSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardHolder{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    overflow-x: auto;
+    scrollbar-color: transparent transparent;
+  }
+  

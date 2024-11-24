@@ -1,0 +1,25 @@
+.dashboardOverview {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  background-color: white;
+  height: 100%;
+  color: black;
+}
+
+.projectSummary,
+.activityFeed,
+.deadlines,
+.notifications,
+.teamUtilization {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  
+  
+}
+ .h2 {
+  font-size: 1.5em;
+  color: #333;
+}
