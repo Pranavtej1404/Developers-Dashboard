@@ -1,1 +1,1 @@
-export const api=process.env.NEXT_PUBLIC_API_URL;
+export const api="http://localhost:8080";
