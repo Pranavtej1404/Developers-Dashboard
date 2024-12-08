@@ -70,7 +70,12 @@ Together, these modules provide an interactive interface for monitoring and mana
 3. Run the backend server:  
    ```bash
    ./mvnw spring-boot:run
-   ```  
+   ```
+4. Create a database named 'prokarto' in mysql
+5. Update `Developers-Dashboard\demo\src\main\resources\application.properties`
+     -spring.datasource.username: give your mysql username
+     -spring.datasource.password: give your password
+  
 4. The backend will be available at `http://localhost:8080`.  
 
 #### **Integration**  
